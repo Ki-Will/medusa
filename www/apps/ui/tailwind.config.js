@@ -49,4 +49,4 @@ module.exports = {
       "bg-stripes-dark": "url('/ui/images/bg-stripes-dark.png')",
     },
   },
-}
+};

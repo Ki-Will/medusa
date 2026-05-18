@@ -4,4 +4,4 @@ import coreConfig from "tailwind/modified.tailwind.config"
 module.exports = {
   ...coreConfig,
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-}
+};
