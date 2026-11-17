@@ -43,7 +43,7 @@
   "mcpServer": "https://docs.medusajs.com/mcp",
   "scripts": {
     "watch": "yarn run -T tsc --build --watch",
-    "build": "yarn run -T rimraf dist && yarn run -T tsc --build",
+    "build": "node init && yarn run -T rimraf dist && yarn run -T tsc --build",
     "serve": "node dist/app.js",
     "test": "../../node_modules/.bin/jest --bail --forceExit --testPathIgnorePatterns='/integration-tests/' --testPathPattern=src",
     "test:integration": "../../node_modules/.bin/jest --passWithNoTests --forceExit --testPathPattern=\"src/.*/integration-tests/__tests__/.*\\.ts\""
@@ -110,13 +110,13 @@
     "boxen": "^5.0.1",
     "chalk": "^4.1.2",
     "chokidar": "^4.0.3",
-    "compression": "^1.8.0",
+    "compression": "^1.8.2",
     "express": "^4.21.0",
     "fs-exists-cached": "^1.0.0",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^2.0.2",
+    "multer": "^2.5.0",
     "node-schedule": "^2.1.1",
-    "qs": "^6.12.1",
+    "qs": "^6.16.1",
     "request-ip": "^3.3.0",
     "slugify": "^1.6.6",
     "uuid": "^9.0.0"

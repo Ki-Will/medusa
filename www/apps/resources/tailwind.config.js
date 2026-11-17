@@ -36,4 +36,4 @@ module.exports = {
       "bg-stripes-dark": "url('/resources/images/bg-stripes-dark.png')",
     },
   },
-}
+};
